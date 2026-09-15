@@ -21,13 +21,8 @@ class ViewController: UIViewController, WKNavigationDelegate {
             config.setValue(true, forKey: "allowUniversalAccessFromFileURLs")
         }
         
-//        let url = URL(string: "h")!
         let url = URL(string: "http://localhost:3333/")!
         
-//        let url = URL(string: "https://securepayments.tinkoff.ru/3CDGLtVB")!
-        
-//        let url = URL(string: "https://taiga-ui.dev/getting-started")!
-
         webView.load(URLRequest(url: url))
     }
     
